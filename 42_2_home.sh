@@ -43,6 +43,7 @@ if [[ "${Path_git}" = "..." || "${Path_vogo}" == "..." ]]; then
 fi
 echo "Hello there, thx for using the 42_2_Home script."
 if [ "$1" = "-S" ]; then
+	git pull
 	cp -R -v ${Path_git}/* ${Path_vogo}
 	echo "All files were transfered!" 
 
