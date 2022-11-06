@@ -1,6 +1,11 @@
-# 42_2_Home
-
-
+# 42_2_Home  
+```
+  __  ___        ___        _   _  _____  __  __  ____   
+ /. |(__ \      (__ \      ( )_( )(  _  )(  \/  )( ___)  
+(_  _)/ _/  ___  / _/  ___  ) _ (  )(_)(  )    (  )__)   
+  (_)(____)(___)(____)(___)(_) (_)(_____)(_/\/\_)(____)  
+```
+  
 ## Presentation
 42_2_Home est un script pour simplifier le transfert de ton GitHub perso à ta vogosphère.
 Le script reste simple et ne fait pas que très peu de vérifications d'erreurs.  
