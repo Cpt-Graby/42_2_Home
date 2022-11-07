@@ -4,8 +4,8 @@ set -o errexit
 #Voici un petit script pour te simplifier la vie pour tes transferts entre la 
 #Vogosphere et ton github.
 
-Path_git="/Users/agonelle/Desktop/CptGraby_42/GNL"
-Path_vogo="/Users/agonelle/Documents/GNL"
+Path_git="..."
+Path_vogo="..."
 update_message="Mise a jour de mon git. "
 version=0.1
 
