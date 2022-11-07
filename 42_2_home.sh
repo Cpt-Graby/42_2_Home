@@ -4,16 +4,16 @@ set -o errexit
 #Voici un petit script pour te simplifier la vie pour tes transferts entre la 
 #Vogosphere et ton github.
 
-Path_git="..."
-Path_vogo="..."
+Path_git="/Users/agonelle/Desktop/CptGraby_42/GNL"
+Path_vogo="/Users/agonelle/Documents/GNL"
 update_message="Mise a jour de mon git. "
 version=0.1
 
 function transf_2_git (){
-	(cd ${Path_vogo}; git add -A; git commit -m "$1 "; git push)
+	(cd ${Path_vogo}; git add -A; git commit -m "${update_message} "; git push)
 	cp -R -v ${Path_vogo}/* ${Path_git}
-	echo "commit -m :$update_message "
-	(cd ${Path_git}; git add -A; git commit -m "$1 "; git push)
+	echo "commit -m :${update_message}"
+	(cd ${Path_git}; git add -A; git commit -m "${update_message} "; git push)
 }
 
 function help_message (){
@@ -43,6 +43,7 @@ if [[ "${Path_git}" = "..." || "${Path_vogo}" == "..." ]]; then
 fi
 echo "Hello there, thx for using the 42_2_Home script."
 if [ "$1" = "-S" ]; then
+	cd ${Path_git}
 	git pull
 	cp -R -v ${Path_git}/* ${Path_vogo}
 	echo "All files were transfered!" 
