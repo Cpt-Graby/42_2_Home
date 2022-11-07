@@ -18,16 +18,21 @@ Comme dirait certains: Un grand pouvoir implique de grandes responsabilités. Al
 ```-P```  Ce flag permet d'afficher les chemins enregistrer dans le script.  
 
 ## Comment installer le script
-Malheuresement pas encore de fichier d'installation automatisée.  
-Tu vas donc devoir:  
+Si vous etes paresseux, voici toutes les commandes en un seul bloc (1,2 & 3):  
+```wget https://raw.githubusercontent.com/Cpt-Graby/42_2_Home/main/42_2_home.sh; chmod +x 42_2_home.sh; mv 42_2_Home.sh ~ ```  
+
+Mais si tu preferes tout faire a la main:  
 1) Télécharger ce script.  
-2) Le mettre dans un dossier  
+``` wget https://raw.githubusercontent.com/Cpt-Graby/42_2_Home/main/42_2_home.sh; ```
+2) Mettre le droit d'execution.  
+```chmod +x 42_2_home.sh ```  
+3) Le mettre dans un dossier home:  
 ex: ```mv 42_2_Home.sh ~ ```  
-3) Modifier tes variables path.   
-4) Pour finalement donner les droits d'execution   
-ex: ```cd ~; chmod +x 42_2_Home.sh ```    
-5) Puis le lancer   
-```./42_2_Home.sh```  
+  
+Puis:  
+4) Modifier tes variables path.(vim ou vscode ou nano si vous n'avez pas d'ame)  
+5) Puis le lancer  
+```./42_2_Home.sh```
 
 ## Le mot de la fin  
 Si tu as des propositions d'améliorations, n'hésite pas à prendre contact.  
