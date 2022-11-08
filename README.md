@@ -8,7 +8,7 @@
   
 ## Presentation
 42_2_Home est un script pour simplifier le transfert de ton GitHub perso à ta vogosphère.
-Le script reste simple et ne fait pas que très peu de vérifications d'erreurs.  
+Le script reste simple et ne fait que très peu de vérifications d'erreurs.  
 Comme dirait certains: Un grand pouvoir implique de grandes responsabilités. Alors fait pas de conneries Jacky.
 
 ## Les commandes disponibles
@@ -18,11 +18,11 @@ Comme dirait certains: Un grand pouvoir implique de grandes responsabilités. Al
 ```-P```  Ce flag permet d'afficher les chemins enregistrer dans le script.  
 
 ## Comment installer le script
-Si vous etes paresseux, voici toutes les commandes en un seul bloc (1,2 & 3):  
+Si tu es paresseux, voici toutes les commandes en un seul bloc (1,2 & 3):  
 ```curl https://raw.githubusercontent.com/Cpt-Graby/42_2_Home/main/42_2_home.sh > 42_2_home.sh; chmod +x 42_2_home.sh; mv 42_2_Home.sh ~ ```  
 
-Mais si tu preferes tout faire a la main:  
-1) Télécharger ce script.  
+Mais si tu preferes tout faire à la main:  
+1) Télécharger le script.  
 ``` curl https://raw.githubusercontent.com/Cpt-Graby/42_2_Home/main/42_2_home.sh > 42_2_home.sh; ```
 2) Mettre le droit d'execution.  
 ```chmod +x 42_2_home.sh ```  
@@ -30,7 +30,7 @@ Mais si tu preferes tout faire a la main:
 ex: ```mv 42_2_Home.sh ~ ```  
   
 Puis:  
-4) Modifier tes variables path.(vim ou vscode ou nano si vous n'avez pas d'ame)  
+4) Modifier tes variables path(vim ou vscode ou nano si vous n'avez pas d'ame).  
 5) Puis le lancer  
 ```./42_2_Home.sh```
 
